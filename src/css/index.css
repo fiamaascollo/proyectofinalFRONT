@@ -1,0 +1,56 @@
+p {
+    margin-left: 50;
+}
+
+.carousel-inner {
+    padding: 0rem 0rem;
+}
+
+.carousel-inner img {
+    width: 100rem;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-right: 1rem;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 1rem;
+}
+
+.flex-item {
+    margin-right: 7rem;
+    padding-left: 6rem;
+}
+
+.flex-item2 {
+    margin-left: 10rem;
+    margin-right: 2rem;
+}
+
+.imagen {
+    transition: 0.5s;
+}
+
+.imagen:hover {
+    transform: scale(1.1);
+}
