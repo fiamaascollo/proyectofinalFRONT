@@ -31,7 +31,7 @@ const Update = () =>{
 
     const updateApiData = async () => {
 
-        await axios.put(`${DATOS}/clientes/${id}`, {
+        await axios.put(`${DATOS}/${id}`, {
             nombre,
             apellido,
             email,
