@@ -27,7 +27,7 @@ const Chatbot = () => {
     },
     {
       question: '¿Cómo puedo acceder al apartado "Login"?',
-      answer: 'Si sos asesor, podes obtener el usuario y contraseña desde la parte de "observaciones" del Drive que habilitó el profesor Pastor para los proyectos. Al acceder con el usuario y contraseña correspondientes, vas a poder visualizar la base de datos de los clientes a contactar, donde podrás actualizar o eliminar la información de los mismos.'
+      answer: 'El usuario que debes utilizar es "volkswagen2023" y la contraseña es "autos123". Al acceder con los datos correspondientes, vas a poder visualizar la base de datos de los clientes a contactar, donde podrás actualizar o eliminar la información de los mismos.'
     },
   ];
 
