@@ -44,6 +44,7 @@ const Update = () =>{
                 icon: 'success',
                 confirmButtonText: 'Cerrar' 
             });
+            navigate('/clientes');
         }).catch(error => {
             console.error('Error en la actualización:', error);
             Swal.fire({
