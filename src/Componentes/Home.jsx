@@ -16,10 +16,10 @@ const Home = () => {
                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
-                      <img src={amarok} class="d-block w-100" alt="VW Amarok"/>
+                      <img src={interior} class="d-block w-100" alt="VW Amarok"/>
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                      <img src={interior} class="d-block w-100" alt="VW"/>
+                      <img src={amarok} class="d-block w-100" alt="VW"/>
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
                       <img src={tcross} class="d-block w-100" alt="VW T-Cross"/>
