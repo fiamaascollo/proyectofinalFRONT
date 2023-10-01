@@ -1,4 +1,4 @@
-import "../Componentes/Contacto"
+import "../Componentes/Concesionarios"
 import "../css/Vehiculos.css"
 import Chatbot from "./Chatbot"
 import golf from "../img/golf2.jpg"
@@ -21,7 +21,7 @@ const Vehiculos = () => {
                 <h1 class="fw-light">Encontrá tu próximo Volkswagen.</h1>
                 <p class="lead text-body-secondary parrafo">Conocé los mejores precios, ofertas y planes de pago que te acercan cada vez más a tu propio Volkswagen.</p>
                 <p>
-                <a href="../Componentes/Contacto.jsx" class="btn btn-primary my-2">Quiero más info</a>
+                <a href="../Componentes/Concesionarios.jsx" class="btn btn-primary my-2">Quiero más info</a>
                 </p>
             </div>
             </div>
