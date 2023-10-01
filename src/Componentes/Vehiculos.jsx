@@ -1,4 +1,4 @@
-import "../Componentes/Contacto.jsx"
+import "../Componentes/Contacto"
 import "../css/Vehiculos.css"
 import Chatbot from "./Chatbot"
 import golf from "../img/golf2.jpg"
