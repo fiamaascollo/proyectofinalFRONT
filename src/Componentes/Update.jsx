@@ -46,7 +46,7 @@ const Update = () =>{
             });
             navigate('/clientes');
         }).catch(error => {
-            console.error('Error en la actualización:', error);
+            console.log('Error en la actualización:', error);
             Swal.fire({
                 title: 'Error',
                 text: 'Hubo un problema al actualizar los datos del cliente.',
