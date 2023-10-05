@@ -9,6 +9,7 @@ import taos from "../img/taos.png"
 import tcross from "../img/tcross2.jpg"
 import virtus from "../img/virtus.jpg"
 import tiguan from "../img/tiguan.jpeg"
+import { Button } from 'semantic-ui-react';
 
 const Vehiculos = () => {
     return (
