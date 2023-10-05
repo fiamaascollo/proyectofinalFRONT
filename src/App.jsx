@@ -9,7 +9,7 @@ import Clientes from './Componentes/Clientes';
 import Footer from './Componentes/Footer';
 import Chatbot from './Componentes/Chatbot';
 import Update from './Componentes/Update';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
