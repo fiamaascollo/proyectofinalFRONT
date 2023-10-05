@@ -20,7 +20,7 @@ const Vehiculos = () => {
                 <h1 class="fw-light">Encontrá tu próximo Volkswagen.</h1>
                 <p class="lead text-body-secondary parrafo">Conocé los mejores precios, ofertas y planes de pago que te acercan cada vez más a tu propio Volkswagen.</p>
                 <p>
-                <a href="../Componentes/Contacto.jsx" class="btn btn-primary my-2">Quiero más info</a>
+                    <Link to="/contacto" className="btn btn-primary my-2">Quiero más info </Link>
                 </p>
             </div>
             </div>
