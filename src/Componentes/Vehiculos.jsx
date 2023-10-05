@@ -9,7 +9,7 @@ import taos from "../img/taos.png"
 import tcross from "../img/tcross2.jpg"
 import virtus from "../img/virtus.jpg"
 import tiguan from "../img/tiguan.jpeg"
-import { Button, Link } from 'semantic-ui-react';
+import { Link } from 'semantic-ui-react';
 
 const Vehiculos = () => {
     return (
@@ -20,9 +20,9 @@ const Vehiculos = () => {
             <div class="col-lg-6 col-md-8 mx-auto">
                 <h1 class="fw-light">Encontrá tu próximo Volkswagen.</h1>
                 <p class="lead text-body-secondary parrafo">Conocé los mejores precios, ofertas y planes de pago que te acercan cada vez más a tu propio Volkswagen.</p>
-                <Button as={Link} to="/contacto" className="btn btn-primary my-2">
-                    Quiero más info
-                </Button>
+                <Link to="/contacto">
+                    <button className="btn btn-primary my-2">Quiero más info</button>
+                </Link>
             </div>
             </div>
         </section>
