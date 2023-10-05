@@ -137,9 +137,9 @@ const Contacto = () =>{
 
                 <div className='centrar'>
                         <Button.Group>
-                            <Button type='button' onClick={() => reset()} primary>Limpiar Formulario</Button>
-                            <Button.Or />
                             <Button type='submit' positive>Enviar Datos</Button>
+                            <Button.Or />
+                            <Button type='button' onClick={() => reset()} primary>Limpiar Formulario</Button>
                         </Button.Group>
                 </div>
             </Form>
