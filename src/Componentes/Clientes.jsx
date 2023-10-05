@@ -48,14 +48,31 @@ const Clientes = () =>{
             showCancelButton: true,
             confirmButtonText: 'Sí, eliminar',
             cancelButtonText: 'Cancelar',
-        }).then((result) => {
+        }).then(async (result) => {
             if (result.isConfirmed) {
-                axios.delete(`${DATOS}/${id}`) 
-                Swal.fire('Los datos del cliente han sido eliminados.', '', 'success');
-                getData() 
+                try {
+                    await axios.delete(`${DATOS}/${id}`);
+                    Swal.fire({
+                        title: 'Los datos del cliente han sido eliminados.',
+                        icon: 'success',
+                        confirmButtonText: 'Cerrar'
+                    });
+                    // Actualizar el estado o recargar la lista de clientes
+                    // por ejemplo, si estás utilizando React Hooks
+                    setClientes((clientes) => clientes.filter(cliente => cliente._id !== id));
+                } catch (error) {
+                    console.error('Error al eliminar el cliente:', error);
+                    Swal.fire({
+                        title: 'Error',
+                        text: 'Hubo un problema al eliminar el cliente.',
+                        icon: 'error',
+                        confirmButtonText: 'Cerrar'
+                    });
+                }
             }
         });
     };
+    
 
     console.log(apiData);
 
