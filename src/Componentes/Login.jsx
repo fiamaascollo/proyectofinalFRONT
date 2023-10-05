@@ -45,7 +45,7 @@ const Login = () => {
                     Para ingresar a la base de datos de nuestros clientes, debes ingresar el usuario y contraseña.
                 </h2>
                 <h3>
-                    Si desconoces esta información, hacé click en el asistente virtual y deslizate hacia la última pregunta.
+                    Si desconoces esta información, hacé click en el asistente virtual y desliza hacia la última pregunta.
                 </h3>
             </div>
             <Form onSubmit={handleSubmit(onSubmit)}>
