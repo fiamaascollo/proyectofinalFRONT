@@ -9,7 +9,7 @@ import taos from "../img/taos.png"
 import tcross from "../img/tcross2.jpg"
 import virtus from "../img/virtus.jpg"
 import tiguan from "../img/tiguan.jpeg"
-import { Link } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 
 const Vehiculos = () => {
     return (
